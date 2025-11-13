@@ -38,4 +38,15 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.УчетСпортсменов</subsystems>
+  <catalogs>Catalog.ВидыАбонементов</catalogs>
+  <catalogs>Catalog.ГруппыСпортсменов</catalogs>
+  <catalogs>Catalog.КлубныеКарты</catalogs>
+  <catalogs>Catalog.СпортивныеГруппы</catalogs>
+  <catalogs>Catalog.Спортсмены</catalogs>
+  <catalogs>Catalog.Тренеры</catalogs>
+  <catalogs>Catalog.Услуги</catalogs>
+  <enums>Enum.ВидыДокументов</enums>
+  <enums>Enum.ВозрастныеГруппы</enums>
+  <enums>Enum.ТипыАбонементов</enums>
 </mdclass:Configuration>

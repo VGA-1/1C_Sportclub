@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33c7c1b8-a3bf-4c17-b6c0-1d5799eb90c4">
+  <producedTypes>
+    <refType typeId="69f247ae-7678-46f4-ad16-a7d7fbb352c9" valueTypeId="2f05e4fc-2b0b-4067-9b92-d265ca396d31"/>
+    <listType typeId="65f72b0f-16fb-47e1-a2dc-cf9fc2fa754d" valueTypeId="6497370a-c8e7-42e5-868a-f2f724567fa0"/>
+    <managerType typeId="17391737-679b-431b-929d-458e9880db3d" valueTypeId="ea59d4a0-18e6-4396-95ae-d143bf404eec"/>
+  </producedTypes>
+  <name>ВозрастныеГруппы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Возрастные группы</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="20422a23-9de2-4ffe-9dce-9067a475d361">
+    <name>Дети</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дети</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6f7c16bb-2dcc-43ae-b83e-0db5f615a95e">
+    <name>Взрослые</name>
+    <synonym>
+      <key>ru</key>
+      <value>Взрослые</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="00cc907c-2c2e-49d0-b7be-d0261fdee54b">
+    <name>Пожилые</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пожилые</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

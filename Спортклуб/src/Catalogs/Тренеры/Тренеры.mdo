@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0610488b-93ee-4a2f-89ee-2e9f9bcaf58a">
+  <producedTypes>
+    <objectType typeId="a526a4f9-0031-4f81-8483-806b5160dcf3" valueTypeId="4ccb32f2-919f-4540-8c48-6356031e5a78"/>
+    <refType typeId="59ba3cb4-cbf3-4914-95ee-6884a2f81cdf" valueTypeId="f9c6cc4c-5993-423e-a391-e58ba5a8f3cc"/>
+    <selectionType typeId="e71b1317-1431-45dc-adb0-41c94a428830" valueTypeId="105116a2-e804-4600-b3a3-b9174f044503"/>
+    <listType typeId="c91411e5-b53b-4500-8f00-3fffd92bf390" valueTypeId="c63cbf6d-589c-49c2-a752-538c5dd6e935"/>
+    <managerType typeId="2790a1de-1b69-4b49-9f9e-004ce4c90644" valueTypeId="dd881b00-5926-4f94-9593-556a3fe8c392"/>
+  </producedTypes>
+  <name>Тренеры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тренеры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Тренеры.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Тренеры.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="50e2fc8f-6b05-4862-9417-ca11d51aaa4f">
+    <name>ФИО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФИО</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e94414a8-f875-47aa-b926-14040c07259e">
+    <name>ДатаРождения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата рождения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ДФ=dd.MM.yyyy</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДФ=dd.MM.yyyy</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="553a25a6-be7a-4d20-a6d0-138546943517">
+    <name>Телефон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефон</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <mask>+7(999)999 9999</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="85676411-02c7-4d48-b640-acf32cabdced">
+    <name>Кабинет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кабинет</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="07c5117f-30a6-41eb-8e74-58058f76d16f">
+    <producedTypes>
+      <objectType typeId="87054654-7dc4-4956-98de-8e0508cebe5f" valueTypeId="263d4a4e-17e1-41be-aa01-40e43b912a04"/>
+      <rowType typeId="989d083b-9230-4b15-9541-b48b31b1120e" valueTypeId="33aef9cc-fcf1-4d46-b945-0f25ed42326c"/>
+    </producedTypes>
+    <name>ОказываемыеУслуги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оказываемые услуги</value>
+    </synonym>
+    <attributes uuid="669d7388-91ca-44a4-b631-6e088e974fdc">
+      <name>Услуга</name>
+      <synonym>
+        <key>ru</key>
+        <value>Услуга</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Услуги</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Catalog>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="44754662-a9c8-48e9-9d1c-1360165619eb">
+  <producedTypes>
+    <objectType typeId="822120ca-1958-479b-8e7f-d375da1052aa" valueTypeId="a61f5b7f-8756-4923-8f0f-127c8d006dd2"/>
+    <refType typeId="50635691-3bd8-43c1-84cf-4977d8a668f0" valueTypeId="e496cad4-304f-4a64-90f1-4ef91752b03b"/>
+    <selectionType typeId="e3651010-5b74-428c-859b-0bc2bc940fd1" valueTypeId="4d9a64e9-20a2-4939-bafb-5b886e84aa25"/>
+    <listType typeId="6adac191-b4f2-410d-a700-69ffe7790a3b" valueTypeId="0b180a9f-d095-43cd-aefc-796e2bbcf285"/>
+    <managerType typeId="095b421b-3a3b-4c8d-b748-80a8bfe4829a" valueTypeId="e5a33092-8330-40bd-a94c-6d42ac2f14f1"/>
+  </producedTypes>
+  <name>КлубныеКарты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Клубные карты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КлубныеКарты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.КлубныеКарты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="272d43f2-d764-41a8-adc1-d73600e384ad">
+    <name>ВладелецКарты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец карты</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Спортсмены</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="224c834a-4d5f-4bdf-9601-d712308eba67">
+    <name>НомерКарты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер карты</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>16</length>
+      </stringQualifiers>
+    </type>
+    <mask>9999 9999 9999 9999</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

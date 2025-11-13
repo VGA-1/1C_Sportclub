@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d3c0fd6b-50c4-46d2-9b22-b83a300db2d0">
+  <producedTypes>
+    <objectType typeId="0aaed1ef-cfcb-457e-aeed-d63d86058409" valueTypeId="f76cc0b8-c1e5-4502-bc86-b15992616d86"/>
+    <refType typeId="5e3b8bed-110f-4214-8cb4-6244a680b508" valueTypeId="c9e5ce2c-630a-4b6c-b2c0-37cc451188ba"/>
+    <selectionType typeId="c65b3f34-2c2a-4b77-8f9d-b6921bb62b6c" valueTypeId="056fc777-0489-4ce5-8d3f-d9fed89b6844"/>
+    <listType typeId="03563045-7beb-49ea-bd14-d0fd65fca8d0" valueTypeId="11b843d7-1e0c-4eb5-8a98-9f7cb6eded34"/>
+    <managerType typeId="2e3b316d-bef1-4a3c-abd2-0d7490ffd688" valueTypeId="72b29fa7-62ef-4962-95f5-cc82f6062f73"/>
+  </producedTypes>
+  <name>ГруппыСпортсменов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группы спортсменов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ГруппыСпортсменов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ГруппыСпортсменов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="f762ea90-f784-4a72-84b2-0ee484b767e3">
+    <name>ВозрастнаяГруппа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возрастная группа</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВозрастныеГруппы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f95e472-950d-47f4-b580-a3a83193bb89">
+  <producedTypes>
+    <objectType typeId="a4e456b4-353d-4a96-ab72-9c8e7a136105" valueTypeId="14e326a2-7f0c-4d69-8f8a-69c84ba09f65"/>
+    <refType typeId="822a8b56-eea8-4b22-8176-ad773188c791" valueTypeId="f3fd0568-41e1-4d6b-b539-fef81702400c"/>
+    <selectionType typeId="a1a5f30c-c934-48ef-a51b-e6c841668d9b" valueTypeId="31d02970-14ca-4dab-9512-d967693ded23"/>
+    <listType typeId="b2ef3485-1a0f-416a-a214-7d905cb86028" valueTypeId="f82f710f-a8bc-41c0-8f65-8dfc48e7842c"/>
+    <managerType typeId="a63086e0-37b6-4fa4-90fa-f6fc72c73004" valueTypeId="e2434bb1-e57f-45a7-a8ad-5c6df667f826"/>
+  </producedTypes>
+  <name>ВидыАбонементов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды абонементов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыАбонементов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВидыАбонементов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="7cb10c93-13d3-491a-89c5-596b3a46c413">
+    <name>ОграничениеДлительности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ограничение длительности</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7e82df52-6030-4a87-a9ef-7ec3127567da">
+    <name>ДлительностьДней</name>
+    <synonym>
+      <key>ru</key>
+      <value>Длительность дней</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b530391d-4aa7-4adc-ba25-d1ac14149e9a">
+    <name>ДлительностьМесяцев</name>
+    <synonym>
+      <key>ru</key>
+      <value>Длительность месяцев</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b0d05f15-adfa-4fd4-bf5d-053b29951a31">
+    <name>ВозможностьЗаморозки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возможность заморозки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="63591406-d30f-4a3f-9eb2-78fd16158897">
+    <name>КоличествоПосещений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество посещений</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="db6ce7eb-250c-49c6-acee-36440d128bce">
+    <name>ТипАбонемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип абонемента</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыАбонементов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1e254ee4-3dda-4d79-80a1-d7e179501cac">
+    <name>УслугаАбонемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга абонемента</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Услуги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

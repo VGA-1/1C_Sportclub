@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9ee6443-0992-402e-b6ba-b8c06d92a069">
+  <producedTypes>
+    <refType typeId="c5568729-4ad6-4c49-94c4-32a84f84f6ea" valueTypeId="912de320-c135-44a9-9e56-192882b16b6d"/>
+    <listType typeId="9e620b07-8785-4de3-878d-054c4c14480f" valueTypeId="acf272e1-db5d-4aa3-a13d-6475d227b946"/>
+    <managerType typeId="3d5409c6-c7e3-4317-9e5d-da32d590c3f2" valueTypeId="3dfe7153-83fb-4015-88a8-634b5da38f3a"/>
+  </producedTypes>
+  <name>ВидыДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды документов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c440e031-d411-4292-a2c6-40278b58bc6d">
+    <name>ПаспортРФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Паспорт РФ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="13f96bcf-6ab6-4a59-ba77-1ec2a03d169b">
+    <name>АвтомобильныеПрава</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автомобильные права</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7110d6fe-a6e6-4c6c-ac58-1c1b8d480e62">
+    <name>ИностранныйПаспорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Иностранный паспорт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="864c7ffc-a828-4482-b6c5-a69d7a1e9cfd">
+    <name>СвидетельствоОРождении</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свидетельство о рождении</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
