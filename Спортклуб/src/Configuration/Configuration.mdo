@@ -39,9 +39,11 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.УчетСпортсменов</subsystems>
+  <commonForms>CommonForm.Планировщик</commonForms>
   <catalogs>Catalog.ВидыАбонементов</catalogs>
   <catalogs>Catalog.ГруппыСпортсменов</catalogs>
   <catalogs>Catalog.КлубныеКарты</catalogs>
+  <catalogs>Catalog.Помещения</catalogs>
   <catalogs>Catalog.СпортивныеГруппы</catalogs>
   <catalogs>Catalog.Спортсмены</catalogs>
   <catalogs>Catalog.Тренеры</catalogs>
@@ -49,4 +51,5 @@
   <enums>Enum.ВидыДокументов</enums>
   <enums>Enum.ВозрастныеГруппы</enums>
   <enums>Enum.ТипыАбонементов</enums>
+  <informationRegisters>InformationRegister.РасписаниеТренеров</informationRegisters>
 </mdclass:Configuration>

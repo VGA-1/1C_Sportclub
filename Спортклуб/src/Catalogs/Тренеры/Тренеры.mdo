@@ -94,17 +94,13 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="85676411-02c7-4d48-b640-acf32cabdced">
-    <name>Кабинет</name>
+    <name>Помещение</name>
     <synonym>
       <key>ru</key>
-      <value>Кабинет</value>
+      <value>Помещение</value>
     </synonym>
     <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>3</precision>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
+      <types>CatalogRef.Помещения</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
