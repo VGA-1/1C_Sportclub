@@ -39,9 +39,14 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.УчетСпортсменов</subsystems>
+  <roles>Role.Администратор</roles>
+  <roles>Role.Бухгалтер</roles>
+  <roles>Role.Продавец</roles>
+  <roles>Role.Тренер</roles>
   <catalogs>Catalog.ВидыАбонементов</catalogs>
   <catalogs>Catalog.ГруппыСпортсменов</catalogs>
   <catalogs>Catalog.КлубныеКарты</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.СпортивныеГруппы</catalogs>
   <catalogs>Catalog.Спортсмены</catalogs>
   <catalogs>Catalog.Тренеры</catalogs>

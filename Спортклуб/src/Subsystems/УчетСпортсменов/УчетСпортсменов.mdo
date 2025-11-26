@@ -9,4 +9,8 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>InformationRegister.ЦеныУслуг</content>
   <content>Document.ПродажаАбонемента</content>
+  <content>Role.Администратор</content>
+  <content>Role.Бухгалтер</content>
+  <content>Role.Продавец</content>
+  <content>Role.Тренер</content>
 </mdclass:Subsystem>
