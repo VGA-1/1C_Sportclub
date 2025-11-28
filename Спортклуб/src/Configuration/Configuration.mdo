@@ -51,9 +51,12 @@
   <catalogs>Catalog.Спортсмены</catalogs>
   <catalogs>Catalog.Тренеры</catalogs>
   <catalogs>Catalog.Услуги</catalogs>
+  <documents>Document.Оплата</documents>
   <documents>Document.ПродажаАбонемента</documents>
   <enums>Enum.ВидыДокументов</enums>
   <enums>Enum.ВозрастныеГруппы</enums>
+  <enums>Enum.СпособОплаты</enums>
+  <enums>Enum.СтатусОплаты</enums>
   <enums>Enum.ТипыАбонементов</enums>
   <informationRegisters>InformationRegister.ЦеныУслуг</informationRegisters>
 </mdclass:Configuration>

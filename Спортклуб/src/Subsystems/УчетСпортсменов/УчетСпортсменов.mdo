@@ -13,4 +13,5 @@
   <content>Role.Бухгалтер</content>
   <content>Role.Продавец</content>
   <content>Role.Тренер</content>
+  <content>Document.Оплата</content>
 </mdclass:Subsystem>
