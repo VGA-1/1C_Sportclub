@@ -155,10 +155,10 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>10</length>
+        <length>16</length>
       </stringQualifiers>
     </type>
-    <mask>+7(999)999 9999</mask>
+    <mask>+7(999) 999 9999</mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>

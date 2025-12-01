@@ -16,18 +16,16 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <resources uuid="28914993-5058-4429-8397-3ef13f48cd14">
-    <name>Задание</name>
+  <resources uuid="b2aba261-ad95-4ae7-85fe-a01f75d4cf83">
+    <name>ГруппаСпортсменов</name>
     <synonym>
       <key>ru</key>
-      <value>Задание</value>
+      <value>Группа спортсменов</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>150</length>
-      </stringQualifiers>
+      <types>CatalogRef.ГруппыСпортсменов</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -76,7 +74,7 @@
     <type>
       <types>Date</types>
       <dateQualifiers>
-        <dateFractions>Date</dateFractions>
+        <dateFractions>Time</dateFractions>
       </dateQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -95,24 +93,8 @@
     <type>
       <types>Date</types>
       <dateQualifiers>
-        <dateFractions>Date</dateFractions>
+        <dateFractions>Time</dateFractions>
       </dateQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <mainFilter>true</mainFilter>
-  </dimensions>
-  <dimensions uuid="63024e6f-a886-4c0f-bf18-bba41104f097">
-    <name>СпортивнаяГруппа</name>
-    <synonym>
-      <key>ru</key>
-      <value>Спортивная группа</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.СпортивныеГруппы</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

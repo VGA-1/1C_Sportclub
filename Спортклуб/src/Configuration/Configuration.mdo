@@ -39,6 +39,14 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.УчетСпортсменов</subsystems>
+  <commonModules>CommonModule.ПолныеПрава</commonModules>
+  <commonModules>CommonModule.СерверГлобальный</commonModules>
+  <commonCommands>CommonCommand.ОткрытьПланировщик</commonCommands>
+  <commandGroups>CommandGroup.Справочники</commandGroups>
+  <commandGroups>CommandGroup.Документы</commandGroups>
+  <commandGroups>CommandGroup.РегистрыСведений</commandGroups>
+  <constants>Constant.ЧасНачалаРабочегоДня</constants>
+  <constants>Constant.ЧасОкончанияРабочегоДня</constants>
   <commonForms>CommonForm.Планировщик</commonForms>
   <catalogs>Catalog.ВидыАбонементов</catalogs>
   <catalogs>Catalog.ГруппыСпортсменов</catalogs>

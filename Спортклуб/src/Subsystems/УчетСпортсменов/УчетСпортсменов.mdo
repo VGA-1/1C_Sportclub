@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3dfb5ffd-53c3-4ee2-be14-be8109fccd16">
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3dfb5ffd-53c3-4ee2-be14-be8109fccd16">
   <name>УчетСпортсменов</name>
   <synonym>
     <key>ru</key>
@@ -7,4 +7,20 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.User</picture>
+  </picture>
+  <content>CommonForm.Планировщик</content>
+  <content>CommandGroup.Справочники</content>
+  <content>CommandGroup.Документы</content>
+  <content>Catalog.ВидыАбонементов</content>
+  <content>Catalog.ГруппыСпортсменов</content>
+  <content>Catalog.КлубныеКарты</content>
+  <content>Catalog.Помещения</content>
+  <content>Catalog.СпортивныеГруппы</content>
+  <content>Catalog.Спортсмены</content>
+  <content>Catalog.Тренеры</content>
+  <content>Catalog.Услуги</content>
+  <content>CommonCommand.ОткрытьПланировщик</content>
+  <content>InformationRegister.РасписаниеТренеров</content>
 </mdclass:Subsystem>
