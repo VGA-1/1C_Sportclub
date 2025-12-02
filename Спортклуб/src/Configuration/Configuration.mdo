@@ -49,4 +49,5 @@
   <enums>Enum.ВидыДокументов</enums>
   <enums>Enum.ВозрастныеГруппы</enums>
   <enums>Enum.ТипыАбонементов</enums>
+  <accumulationRegisters>AccumulationRegister.УчетПосещаемости</accumulationRegisters>
 </mdclass:Configuration>
