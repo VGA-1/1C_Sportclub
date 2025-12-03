@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91a62797-6735-4577-8988-8ae1fb25718a">
+  <producedTypes>
+    <selectionType typeId="ffe05eb6-2f39-46e3-a5a2-f2f62f5d40ef" valueTypeId="8722273d-a991-4568-a7e5-d179866ed579"/>
+    <listType typeId="f1a07383-f36a-47a8-a1e3-e846c4cb4080" valueTypeId="ab529949-c3a8-48b1-beea-ecdde5abea61"/>
+    <managerType typeId="2c5c0368-ba24-4199-bf51-1087736c7258" valueTypeId="19f1d188-c2f4-4013-a96b-5461a5713b41"/>
+    <recordSetType typeId="e0f8173a-1f14-43cc-a595-5c42b0bba293" valueTypeId="24650f47-4acd-4b4c-a1c6-e97d61e4351e"/>
+    <recordKeyType typeId="bed6b6c6-d9fe-41f6-9650-0b531f34ff02" valueTypeId="7b3df117-f3a9-4f65-a86c-4d8572dc4000"/>
+    <recordType typeId="f5802698-a0cd-4c23-af0d-a12841309b18" valueTypeId="d4eef8f5-3237-49d1-bfa4-9b211e784fcb"/>
+  </producedTypes>
+  <name>УчетПосещаемости</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет посещаемости</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="7d7649fa-4b11-4f1c-99aa-aeec7352b4ed">
+    <name>КоличествоПосещений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество посещений</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="882e9bc0-6f71-4396-ad03-f8054d46f22e">
+    <name>Спортсмен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Спортсмен</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Спортсмены</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="876d28b1-f523-48f1-beb7-86b4c8391143">
+    <name>Абонемент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Абонемент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыАбонементов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

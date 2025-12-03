@@ -191,6 +191,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="f56bfee3-eab2-4abc-b005-1dcf9bfe6812">
+    <name>КлубнаяКарта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клубная карта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КлубныеКарты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="697543cf-a550-4967-89cf-85f6e2d1610a">
     <producedTypes>
       <objectType typeId="5daa712f-132f-4a04-8ce6-87fb77a59909" valueTypeId="446b0000-553f-470e-920c-aa26335ed6b2"/>

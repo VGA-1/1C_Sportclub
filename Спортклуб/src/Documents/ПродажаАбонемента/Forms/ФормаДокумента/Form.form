@@ -223,6 +223,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.Абонементы.ВидАбонемента</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>АбонементыВидАбонементаПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>АбонементыВидАбонементаРасширеннаяПодсказка</name>
         <id>34</id>

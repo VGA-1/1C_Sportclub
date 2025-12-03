@@ -14,4 +14,14 @@
   <content>Role.Продавец</content>
   <content>Role.Тренер</content>
   <content>Document.Оплата</content>
+  <content>Catalog.ВидыАбонементов</content>
+  <content>Catalog.ГруппыСпортсменов</content>
+  <content>Catalog.КлубныеКарты</content>
+  <content>Catalog.Пользователи</content>
+  <content>Catalog.СпортивныеГруппы</content>
+  <content>Catalog.Спортсмены</content>
+  <content>Catalog.Тренеры</content>
+  <content>Catalog.Услуги</content>
+  <content>InformationRegister.ЦенаАбонемента</content>
+  <content>Document.РегистрацияВхода</content>
 </mdclass:Subsystem>
