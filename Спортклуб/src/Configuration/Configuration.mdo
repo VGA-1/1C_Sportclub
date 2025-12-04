@@ -57,6 +57,7 @@
   <enums>Enum.ВидыДокументов</enums>
   <enums>Enum.ВозрастныеГруппы</enums>
   <enums>Enum.СпособОплаты</enums>
+  <enums>Enum.СтатусАбонемента</enums>
   <enums>Enum.СтатусОплаты</enums>
   <enums>Enum.ТипыАбонементов</enums>
   <informationRegisters>InformationRegister.ЦенаАбонемента</informationRegisters>

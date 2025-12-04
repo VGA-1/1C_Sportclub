@@ -75,6 +75,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="e232510c-8be4-4f28-b1ad-53197cb30c50">
+    <name>ВидАбонемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид абонемента</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыАбонементов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="97c88409-a29b-4959-a2f6-6f47e523fd13">
     <name>ФормаДокумента</name>
     <synonym>
@@ -94,20 +109,6 @@
       <key>ru</key>
       <value>Абонементы</value>
     </synonym>
-    <attributes uuid="ebb3a1d2-0aaa-4283-8618-dcf25b75f468">
-      <name>ВидАбонемента</name>
-      <synonym>
-        <key>ru</key>
-        <value>Вид абонемента</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.ВидыАбонементов</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
     <attributes uuid="5f94b5ff-0db3-4c5a-8c60-9410d7e87737">
       <name>КоличествоПосещений</name>
       <synonym>

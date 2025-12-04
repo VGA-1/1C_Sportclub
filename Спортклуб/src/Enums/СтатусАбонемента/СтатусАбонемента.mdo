@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="795bc97b-c0d9-4b98-901c-78e864d5b28c">
+  <producedTypes>
+    <refType typeId="a989aab7-8262-4aa1-8ed9-fb78071e8658" valueTypeId="56929fca-a973-4a16-83f6-acdca4451e54"/>
+    <listType typeId="185d98cc-f1a2-4730-9c26-f143406de5c6" valueTypeId="e4dd352b-bd0d-4161-bc58-a27a0e19601f"/>
+    <managerType typeId="c47d262d-5cf6-4924-911a-901cefb7070f" valueTypeId="a1c654ac-7776-4876-bc9e-30f1c8e358b8"/>
+  </producedTypes>
+  <name>СтатусАбонемента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус абонемента</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="87e8c98b-2dfa-4d91-a0ab-119d23d2b2a3">
+    <name>Активен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d5a88fba-dd66-4da4-823e-4416f9dc4633">
+    <name>Закончился</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закончился</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="053f5736-119b-4ada-ae1c-0cbffd866dc2">
+    <name>Заморожен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заморожен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

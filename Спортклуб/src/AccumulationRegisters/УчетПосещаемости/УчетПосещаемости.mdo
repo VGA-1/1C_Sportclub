@@ -14,7 +14,6 @@
     <value>Учет посещаемости</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <registerType>Turnovers</registerType>
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
   <resources uuid="7d7649fa-4b11-4f1c-99aa-aeec7352b4ed">
@@ -34,13 +33,13 @@
     <fullTextSearch>Use</fullTextSearch>
   </resources>
   <dimensions uuid="882e9bc0-6f71-4396-ad03-f8054d46f22e">
-    <name>Спортсмен</name>
+    <name>КлубнаяКарта</name>
     <synonym>
       <key>ru</key>
-      <value>Спортсмен</value>
+      <value>Клубная карта</value>
     </synonym>
     <type>
-      <types>CatalogRef.Спортсмены</types>
+      <types>CatalogRef.КлубныеКарты</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -54,7 +53,7 @@
       <value>Абонемент</value>
     </synonym>
     <type>
-      <types>CatalogRef.ВидыАбонементов</types>
+      <types>DocumentRef.ПродажаАбонемента</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
