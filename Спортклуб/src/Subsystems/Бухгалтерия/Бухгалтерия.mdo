@@ -13,4 +13,5 @@
   <content>InformationRegister.ЦенаТовара</content>
   <content>InformationRegister.НаценкаТовара</content>
   <content>AccumulationRegister.Товары</content>
+  <content>Document.ПродажаТовара</content>
 </mdclass:Subsystem>
