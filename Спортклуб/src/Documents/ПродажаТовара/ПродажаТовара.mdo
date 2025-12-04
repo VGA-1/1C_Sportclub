@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0014246-e964-4d01-a38b-8ebbdd68bc29">
+  <producedTypes>
+    <objectType typeId="7af96a5d-0ba6-4463-bebd-fddb3349cfda" valueTypeId="606c069c-e5d1-4569-8ad6-605974f7a016"/>
+    <refType typeId="14b163d2-9aa0-4d3c-b420-30404a99348a" valueTypeId="5fffcaef-a7e1-4c4e-bbb6-2b2e84daf5cd"/>
+    <selectionType typeId="b1134a23-7ec6-4537-8799-aec8271a25dd" valueTypeId="ba99a8e9-8dcf-4a3d-ad13-0d199918df57"/>
+    <listType typeId="44fabfac-43f1-49dc-9757-0bb092cfb948" valueTypeId="84ac8a78-b009-4241-875e-fd9b7e887fc8"/>
+    <managerType typeId="1fc1e74f-a213-4588-969e-03f81d8d72b2" valueTypeId="d2ce1488-9549-4462-bdcc-432713231137"/>
+  </producedTypes>
+  <name>ПродажаТовара</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продажа товара</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПродажаТовара.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="ec9d11d1-be9b-4f85-b643-38d35037af00">
+    <name>Спортсмен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Спортсмен</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Спортсмены</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

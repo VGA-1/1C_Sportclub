@@ -38,6 +38,7 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Бухгалтерия</subsystems>
   <subsystems>Subsystem.УчетСпортсменов</subsystems>
   <roles>Role.Администратор</roles>
   <roles>Role.Бухгалтер</roles>
@@ -47,12 +48,16 @@
   <catalogs>Catalog.ГруппыСпортсменов</catalogs>
   <catalogs>Catalog.КлубныеКарты</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.Поставщики</catalogs>
   <catalogs>Catalog.СпортивныеГруппы</catalogs>
   <catalogs>Catalog.Спортсмены</catalogs>
+  <catalogs>Catalog.Товары</catalogs>
   <catalogs>Catalog.Тренеры</catalogs>
   <catalogs>Catalog.Услуги</catalogs>
   <documents>Document.Оплата</documents>
+  <documents>Document.ПриходТовара</documents>
   <documents>Document.ПродажаАбонемента</documents>
+  <documents>Document.ПродажаТовара</documents>
   <documents>Document.РегистрацияВхода</documents>
   <enums>Enum.ВидыДокументов</enums>
   <enums>Enum.ВозрастныеГруппы</enums>
@@ -60,7 +65,10 @@
   <enums>Enum.СтатусАбонемента</enums>
   <enums>Enum.СтатусОплаты</enums>
   <enums>Enum.ТипыАбонементов</enums>
+  <informationRegisters>InformationRegister.НаценкаТовара</informationRegisters>
   <informationRegisters>InformationRegister.ЦенаАбонемента</informationRegisters>
+  <informationRegisters>InformationRegister.ЦенаТовара</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныУслуг</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.Товары</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.УчетПосещаемости</accumulationRegisters>
 </mdclass:Configuration>

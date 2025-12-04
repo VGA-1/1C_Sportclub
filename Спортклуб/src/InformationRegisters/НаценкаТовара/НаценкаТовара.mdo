@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c660994c-9659-4ab8-b7dd-c0ec603466bf">
+  <producedTypes>
+    <selectionType typeId="8fe2d263-c4d1-42d3-ae2e-3d9ed1facfeb" valueTypeId="02a2577c-0a2e-4e59-89ef-06d5f318ec1e"/>
+    <listType typeId="8bcb47b2-42ff-4a9c-a711-8dd17ef1d0f2" valueTypeId="02403ece-ac92-47ca-a6ae-43e03205d830"/>
+    <managerType typeId="a1f7f508-cf7e-4ef0-9e41-5f2da9d8c8e2" valueTypeId="c2232756-f24f-4466-a88f-e2a90a3d050b"/>
+    <recordSetType typeId="142cdf69-bca9-4e02-ac87-e21857331a98" valueTypeId="646a3719-f883-49a9-9979-2aea910a5f01"/>
+    <recordKeyType typeId="63773018-e611-4b36-bb44-4ce8bee4ddb3" valueTypeId="dbe79450-6b9e-416d-a741-3d5bf9140d43"/>
+    <recordType typeId="f79a5453-27a3-4d8a-a6fb-9dc1689c404c" valueTypeId="c02174e7-e838-47d2-8946-8da6d5d5e9f5"/>
+    <recordManagerType typeId="6cf228db-3108-485c-8a8c-a747c3065a3f" valueTypeId="44580a30-1952-4717-b632-ca1680405651"/>
+  </producedTypes>
+  <name>НаценкаТовара</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наценка товара</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b267edf2-9514-4110-b70a-7aaba3d4bb7a">
+    <name>ПроцентНаценки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент наценки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="98091d5b-9226-4700-8865-1884bfc3f02d">
+    <name>Товар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Товары</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
