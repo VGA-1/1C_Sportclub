@@ -65,6 +65,7 @@
   <enums>Enum.СтатусАбонемента</enums>
   <enums>Enum.СтатусОплаты</enums>
   <enums>Enum.ТипыАбонементов</enums>
+  <reports>Report.ОтчетПоПроданнымТоварам</reports>
   <informationRegisters>InformationRegister.НаценкаТовара</informationRegisters>
   <informationRegisters>InformationRegister.ЦенаАбонемента</informationRegisters>
   <informationRegisters>InformationRegister.ЦенаТовара</informationRegisters>
