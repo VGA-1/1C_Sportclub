@@ -33,6 +33,7 @@
     </synonym>
     <type>
       <types>DocumentRef.ПродажаАбонемента</types>
+      <types>DocumentRef.ПродажаТовара</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -126,12 +127,13 @@
       <value>Услуги</value>
     </synonym>
     <attributes uuid="59ff8f81-abe0-4e21-9252-74c6526cbe3a">
-      <name>Услуга</name>
+      <name>Абонемент</name>
       <synonym>
         <key>ru</key>
-        <value>Услуга</value>
+        <value>Абонемент</value>
       </synonym>
       <type>
+        <types>CatalogRef.Товары</types>
         <types>CatalogRef.Услуги</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
