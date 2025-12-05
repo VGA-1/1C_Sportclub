@@ -54,6 +54,7 @@
   <catalogs>Catalog.Товары</catalogs>
   <catalogs>Catalog.Тренеры</catalogs>
   <catalogs>Catalog.Услуги</catalogs>
+  <documents>Document.ЗаморозкаАбонемента</documents>
   <documents>Document.Оплата</documents>
   <documents>Document.ПриходТовара</documents>
   <documents>Document.ПродажаАбонемента</documents>
@@ -66,10 +67,13 @@
   <enums>Enum.СтатусОплаты</enums>
   <enums>Enum.ТипыАбонементов</enums>
   <reports>Report.ОтчетПоПроданнымТоварам</reports>
+  <reports>Report.ОтчетПоПроданнымУслугам</reports>
   <informationRegisters>InformationRegister.НаценкаТовара</informationRegisters>
+  <informationRegisters>InformationRegister.СостояниеАбонемента</informationRegisters>
   <informationRegisters>InformationRegister.ЦенаАбонемента</informationRegisters>
   <informationRegisters>InformationRegister.ЦенаТовара</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныУслуг</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ПродажиТренеров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Товары</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.УчетПосещаемости</accumulationRegisters>
 </mdclass:Configuration>

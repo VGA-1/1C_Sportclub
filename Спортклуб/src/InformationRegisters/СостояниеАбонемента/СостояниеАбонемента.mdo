@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="920fd708-4feb-4fb3-b023-4e9941c5cb6d">
+  <producedTypes>
+    <selectionType typeId="e3527fcd-ef3a-4199-be0f-230cdac87b6e" valueTypeId="3100f7b2-fd5c-4744-9a5b-25a231a17323"/>
+    <listType typeId="5af42f84-31fa-4a2d-8b26-3dda68fc9562" valueTypeId="f42fdc80-081e-4d01-9664-7ea097091fff"/>
+    <managerType typeId="15ccc8aa-a86a-4150-81c6-51cd5299fa4a" valueTypeId="5c22b65d-fbce-4e4e-94c7-b9749099946a"/>
+    <recordSetType typeId="95464ad5-f3cc-4cf7-99b7-df29e36109d3" valueTypeId="489398e9-d4fb-4feb-a27e-848888ca9aa4"/>
+    <recordKeyType typeId="ae0942ef-b277-489d-9178-a76aad984983" valueTypeId="a51eca57-7ed8-4e3d-b0cf-b12e4a12ea2b"/>
+    <recordType typeId="b98862cf-63c5-4a11-8fe5-d46c88c87e4d" valueTypeId="c5ed9bcd-56d9-4782-86eb-50f8648f8dcd"/>
+    <recordManagerType typeId="dbcbcdce-b5f1-4a92-98d6-da8641965df0" valueTypeId="17f3efd2-04c8-4c86-9359-f7ec4b21f0c7"/>
+  </producedTypes>
+  <name>СостояниеАбонемента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние абонемента</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="71e81f6e-551a-4333-9d1c-e6f2cf886305">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусАбонемента</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2cc0caa0-07fc-4d39-b630-34ab637abeb6">
+    <name>ОстатокПосещений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остаток посещений</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1a9f574d-22e6-4cc7-aa21-8f4bb33ecb70">
+    <name>ДоступноЗаморозок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступно заморозок</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b13b156f-24a3-4d15-aeb2-4dbce498655b">
+    <name>ДатаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="01a7eab3-8723-4f3f-a64d-15e64af1f892">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="b9aff0e6-dc47-4e36-a5a0-40c2cc0ac40c">
+    <name>Абонемент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Абонемент</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПродажаАбонемента</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

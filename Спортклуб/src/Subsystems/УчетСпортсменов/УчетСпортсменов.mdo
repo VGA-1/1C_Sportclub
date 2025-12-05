@@ -24,4 +24,5 @@
   <content>Catalog.Услуги</content>
   <content>InformationRegister.ЦенаАбонемента</content>
   <content>Document.РегистрацияВхода</content>
+  <content>Document.ЗаморозкаАбонемента</content>
 </mdclass:Subsystem>

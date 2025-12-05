@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0398c9a1-e541-453e-a60a-b2d0d0c19695">
+  <producedTypes>
+    <objectType typeId="150a979e-8522-4b72-8165-5b657ea6fcde" valueTypeId="5d0064a3-5ab5-4bdf-b2fd-7c87d950e99c"/>
+    <refType typeId="40792f8a-f8b0-4f6c-816e-9f32e5601437" valueTypeId="8a2e124a-d189-44fb-9cc1-dfc02748c2e2"/>
+    <selectionType typeId="2a2abe46-26ab-4f42-93ea-29549f082a54" valueTypeId="0d79678c-57f1-466c-84f6-20f287abac31"/>
+    <listType typeId="dbe35be4-a7ae-4a51-985b-2bb77a708dcb" valueTypeId="49082f0a-01a2-4716-a9e6-eac5707e9e72"/>
+    <managerType typeId="78045023-57ec-44da-bb9b-4d408108bf9a" valueTypeId="afac3597-a2c6-45b0-b5a0-da72ede292f0"/>
+  </producedTypes>
+  <name>ЗаморозкаАбонемента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заморозка абонемента</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ЗаморозкаАбонемента.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ЗаморозкаАбонемента.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="d774305e-0783-49d2-a6d9-271b55990c1a">
+    <name>Абонемент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Абонемент</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПродажаАбонемента</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="018e473a-a0db-4943-8740-789272811ca7">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2fe803fb-f914-4d03-ae70-24604018c5f5">
+    <name>ДатаОканчания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата оканчания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="c552572d-a79f-4e8b-93fd-771e2c1b9ed3">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

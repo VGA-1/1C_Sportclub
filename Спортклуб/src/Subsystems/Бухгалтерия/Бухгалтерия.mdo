@@ -15,4 +15,5 @@
   <content>AccumulationRegister.Товары</content>
   <content>Document.ПродажаТовара</content>
   <content>Report.ОтчетПоПроданнымТоварам</content>
+  <content>Report.ОтчетПоПроданнымУслугам</content>
 </mdclass:Subsystem>
