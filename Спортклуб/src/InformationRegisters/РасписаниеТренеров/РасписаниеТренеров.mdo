@@ -17,22 +17,8 @@
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <resources uuid="b2aba261-ad95-4ae7-85fe-a01f75d4cf83">
-    <name>ГруппаСпортсменов</name>
-    <synonym>
-      <key>ru</key>
-      <value>Группа спортсменов</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.ГруппыСпортсменов</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </resources>
   <dimensions uuid="b771b3f8-f628-43de-87d9-4c0426933186">
     <name>Тренер</name>
     <synonym>
@@ -95,6 +81,22 @@
       <dateQualifiers>
         <dateFractions>Time</dateFractions>
       </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="dd4c0c57-3e17-497a-a7e9-6da2344192e1">
+    <name>ГруппаСпортсменов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа спортсменов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГруппыСпортсменов</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

@@ -11,6 +11,10 @@
     <dataPath xsi:type="form:DataPath">
       <segments>Дата</segments>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>ДатаПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>ДатаРасширеннаяПодсказка</name>
       <id>3</id>
@@ -51,6 +55,10 @@
     <dataPath xsi:type="form:DataPath">
       <segments>Планировщик</segments>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>ПланировщикПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>ПланировщикРасширеннаяПодсказка</name>
       <id>6</id>
@@ -72,6 +80,22 @@
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
     <extInfo xsi:type="form:PlannerFieldExtInfo">
+      <handlers>
+        <event>BeforeCreate</event>
+        <name>ПланировщикПередСозданием</name>
+      </handlers>
+      <handlers>
+        <event>OnEditEnd</event>
+        <name>ПланировщикПриОкончанииРедактирования</name>
+      </handlers>
+      <handlers>
+        <event>BeforeDelete</event>
+        <name>ПланировщикПередУдалением</name>
+      </handlers>
+      <handlers>
+        <event>BeforeStartEdit</event>
+        <name>ПланировщикПередНачаломРедактирования</name>
+      </handlers>
       <width>50</width>
       <autoMaxWidth>true</autoMaxWidth>
       <height>10</height>

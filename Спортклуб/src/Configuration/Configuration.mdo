@@ -39,7 +39,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.УчетСпортсменов</subsystems>
-  <commonModules>CommonModule.ПолныеПрава</commonModules>
+  <commonModules>CommonModule.ЗаполнитьКонстанты</commonModules>
   <commonModules>CommonModule.СерверГлобальный</commonModules>
   <commonCommands>CommonCommand.ОткрытьПланировщик</commonCommands>
   <commandGroups>CommandGroup.Справочники</commandGroups>
