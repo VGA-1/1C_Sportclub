@@ -55,10 +55,6 @@
     <dataPath xsi:type="form:DataPath">
       <segments>Планировщик</segments>
     </dataPath>
-    <handlers>
-      <event>OnChange</event>
-      <name>ПланировщикПриИзменении</name>
-    </handlers>
     <extendedTooltip>
       <name>ПланировщикРасширеннаяПодсказка</name>
       <id>6</id>
@@ -95,6 +91,10 @@
       <handlers>
         <event>BeforeStartEdit</event>
         <name>ПланировщикПередНачаломРедактирования</name>
+      </handlers>
+      <handlers>
+        <event>BeforeStartQuickEdit</event>
+        <name>ПланировщикПередНачаломБыстрогоРедактирования</name>
       </handlers>
       <width>50</width>
       <autoMaxWidth>true</autoMaxWidth>
