@@ -11,15 +11,25 @@
       <commands>Catalog.КлубныеКарты.StandardCommand.OpenList</commands>
       <commands>Catalog.ГруппыСпортсменов.StandardCommand.OpenList</commands>
       <commands>Catalog.СпортивныеГруппы.StandardCommand.OpenList</commands>
+      <commands>Catalog.Пользователи.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
       <group>CommandGroup.РегистрыСведений</group>
       <commands>InformationRegister.РасписаниеТренеров.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.ЦеныУслуг.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.ЦенаАбонемента.StandardCommand.OpenList</commands>
+    </placementFragments>
+    <placementFragments>
+      <group>CommandGroup.Документы</group>
+      <commands>Document.ЗаморозкаАбонемента.StandardCommand.OpenList</commands>
+      <commands>Document.РегистрацияВхода.StandardCommand.OpenList</commands>
+      <commands>Document.ПродажаАбонемента.StandardCommand.OpenList</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
     <orderFragments>
       <group>CommandGroup.Справочники</group>
+      <commands>Catalog.Пользователи.StandardCommand.OpenList</commands>
       <commands>Catalog.Помещения.StandardCommand.OpenList</commands>
       <commands>Catalog.Тренеры.StandardCommand.OpenList</commands>
       <commands>Catalog.Услуги.StandardCommand.OpenList</commands>
@@ -32,6 +42,14 @@
     <orderFragments>
       <group>CommandGroup.РегистрыСведений</group>
       <commands>InformationRegister.РасписаниеТренеров.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.ЦеныУслуг.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.ЦенаАбонемента.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>CommandGroup.Документы</group>
+      <commands>Document.РегистрацияВхода.StandardCommand.OpenList</commands>
+      <commands>Document.ПродажаАбонемента.StandardCommand.OpenList</commands>
+      <commands>Document.ЗаморозкаАбонемента.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

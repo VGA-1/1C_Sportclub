@@ -8,14 +8,12 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <picture xsi:type="core:PictureRef">
-    <picture>StdPicture.User</picture>
+    <picture>CommonPicture.УчетСпортсменов</picture>
   </picture>
   <content>CommonForm.Планировщик</content>
   <content>CommandGroup.Справочники</content>
   <content>CommandGroup.Документы</content>
-  
   <content>Catalog.ГруппыСпортсменов</content>
-  
   <content>Catalog.Помещения</content>
   <content>InformationRegister.ЦеныУслуг</content>
   <content>Document.ПродажаАбонемента</content>
@@ -25,7 +23,6 @@
   <content>Role.Тренер</content>
   <content>Document.Оплата</content>
   <content>Catalog.ВидыАбонементов</content>
-  
   <content>Catalog.КлубныеКарты</content>
   <content>Catalog.Пользователи</content>
   <content>Catalog.СпортивныеГруппы</content>

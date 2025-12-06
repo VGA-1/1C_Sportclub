@@ -24,6 +24,7 @@
       <use>true</use>
     </functionality>
   </usedMobileApplicationFunctionalities>
+  <mainSectionPicture/>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
@@ -40,27 +41,27 @@
   </languages>
   <subsystems>Subsystem.Бухгалтерия</subsystems>
   <subsystems>Subsystem.УчетСпортсменов</subsystems>
+  <commonPictures>CommonPicture.Бухгалтерия</commonPictures>
+  <commonPictures>CommonPicture.УчетСпортсменов</commonPictures>
+  <roles>Role.Администратор</roles>
+  <roles>Role.Бухгалтер</roles>
+  <roles>Role.Продавец</roles>
+  <roles>Role.Тренер</roles>
   <commonModules>CommonModule.ЗаполнитьКонстанты</commonModules>
   <commonModules>CommonModule.СерверГлобальный</commonModules>
   <commonCommands>CommonCommand.ОткрытьПланировщик</commonCommands>
   <commandGroups>CommandGroup.Справочники</commandGroups>
   <commandGroups>CommandGroup.Документы</commandGroups>
   <commandGroups>CommandGroup.РегистрыСведений</commandGroups>
+  <commandGroups>CommandGroup.РегистрыНакопления</commandGroups>
   <constants>Constant.ЧасНачалаРабочегоДня</constants>
   <constants>Constant.ЧасОкончанияРабочегоДня</constants>
   <commonForms>CommonForm.Планировщик</commonForms>
-
-  <catalogs>Catalog.ГруппыСпортсменов</catalogs>
- 
-  <catalogs>Catalog.Помещения</catalogs>
-  <roles>Role.Администратор</roles>
-  <roles>Role.Бухгалтер</roles>
-  <roles>Role.Продавец</roles>
-  <roles>Role.Тренер</roles>
   <catalogs>Catalog.ВидыАбонементов</catalogs>
- 
+  <catalogs>Catalog.ГруппыСпортсменов</catalogs>
   <catalogs>Catalog.КлубныеКарты</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.Помещения</catalogs>
   <catalogs>Catalog.Поставщики</catalogs>
   <catalogs>Catalog.СпортивныеГруппы</catalogs>
   <catalogs>Catalog.Спортсмены</catalogs>
@@ -79,10 +80,10 @@
   <enums>Enum.СтатусАбонемента</enums>
   <enums>Enum.СтатусОплаты</enums>
   <enums>Enum.ТипыАбонементов</enums>
-  <informationRegisters>InformationRegister.РасписаниеТренеров</informationRegisters>
   <reports>Report.ОтчетПоПроданнымТоварам</reports>
   <reports>Report.ОтчетПоПроданнымУслугам</reports>
   <informationRegisters>InformationRegister.НаценкаТовара</informationRegisters>
+  <informationRegisters>InformationRegister.РасписаниеТренеров</informationRegisters>
   <informationRegisters>InformationRegister.СостояниеАбонемента</informationRegisters>
   <informationRegisters>InformationRegister.ЦенаАбонемента</informationRegisters>
   <informationRegisters>InformationRegister.ЦенаТовара</informationRegisters>
