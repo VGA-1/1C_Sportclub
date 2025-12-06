@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4c4a39a-5e1d-476c-ba76-ab364091be8c">
+  <producedTypes>
+    <selectionType typeId="8657f459-0526-4071-a629-061d6cd6442e" valueTypeId="85c5d471-b9bd-4c96-8eff-2aefeee02403"/>
+    <listType typeId="84237c78-d671-4dd1-8870-70ee2e293e04" valueTypeId="8c533eef-6d1b-43c1-b63b-c15703463079"/>
+    <managerType typeId="f74059c6-894a-4c4f-a764-3f4f70f1c38b" valueTypeId="ed83f203-7c73-4569-8929-337caf2cb7c4"/>
+    <recordSetType typeId="a20c8831-7baa-46c2-a52e-dfd9edd4f4ba" valueTypeId="7b3d23b2-5c50-4905-aafa-795908afde51"/>
+    <recordKeyType typeId="23f8f320-da44-41ac-a824-83c698b4d611" valueTypeId="9f6f92de-2afb-4208-9a3e-693ad993564f"/>
+    <recordType typeId="e8bb6891-b597-49ef-9482-33905cee89c0" valueTypeId="d0f60160-2ce0-4666-8228-d7d115977277"/>
+    <recordManagerType typeId="246783bf-08b8-431d-b6cb-4ff642095655" valueTypeId="32c4e187-1e1f-4409-8ffb-08a6a51b0317"/>
+  </producedTypes>
+  <name>РасписаниеТренеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расписание тренеров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="b771b3f8-f628-43de-87d9-4c0426933186">
+    <name>Тренер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тренер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Тренеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ea0f6d1b-1f82-4004-bafd-d393090b3725">
+    <name>Помещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помещение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Помещения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6a873132-91ee-4e35-b8fa-7b73a83e2a15">
+    <name>ВремяС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время С</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e139ff69-bff2-4b6a-9577-fada142d4dd6">
+    <name>ВремяПо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время по</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="dd4c0c57-3e17-497a-a7e9-6da2344192e1">
+    <name>ГруппаСпортсменов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа спортсменов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГруппыСпортсменов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

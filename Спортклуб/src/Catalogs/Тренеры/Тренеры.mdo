@@ -22,7 +22,7 @@
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
-  <descriptionLength>25</descriptionLength>
+  <descriptionLength>100</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
@@ -30,7 +30,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="50e2fc8f-6b05-4862-9417-ca11d51aaa4f">
+  <attributes uuid="2f1d9913-cf5f-4eed-9ca0-2de0e432b2f2">
     <name>ФИО</name>
     <synonym>
       <key>ru</key>
@@ -39,7 +39,7 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>100</length>
+        <length>150</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -83,10 +83,10 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>10</length>
+        <length>16</length>
       </stringQualifiers>
     </type>
-    <mask>+7(999)999 9999</mask>
+    <mask>+7(999) 999 9999</mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -94,17 +94,13 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="85676411-02c7-4d48-b640-acf32cabdced">
-    <name>Кабинет</name>
+    <name>Помещение</name>
     <synonym>
       <key>ru</key>
-      <value>Кабинет</value>
+      <value>Помещение</value>
     </synonym>
     <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>3</precision>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
+      <types>CatalogRef.Помещения</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
