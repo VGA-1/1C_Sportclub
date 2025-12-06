@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="10362544-263a-4cd7-9860-b4baf76aff5f">
+  <producedTypes>
+    <selectionType typeId="b03768ac-2a79-441d-98dc-3eaf223e12ea" valueTypeId="c780362a-160a-43d4-ad36-136dbae78100"/>
+    <listType typeId="c195fea2-1868-49c2-8091-fc1bce288975" valueTypeId="2fc812b9-33ec-48b3-a026-8f605f8d7891"/>
+    <managerType typeId="9e08a33a-bcc6-475f-8519-8aa143c6edb2" valueTypeId="617141d0-3092-496c-910d-bcb22af3b197"/>
+    <recordSetType typeId="402e0c6e-49d5-4073-94ed-c251e3a55d58" valueTypeId="4892686f-600e-4e87-9550-e56dcd03e507"/>
+    <recordKeyType typeId="baadacea-3e66-4cb2-ae92-a846416b31a2" valueTypeId="4f877588-39ae-49ea-b6e0-213bd4aaea77"/>
+    <recordType typeId="9f324544-c1eb-49bc-aef4-8dcf468ba84b" valueTypeId="674fd010-98ab-4d7f-bb45-fb79190aa1ea"/>
+    <recordManagerType typeId="c1097d95-14f4-41e7-af2d-98965b32df28" valueTypeId="159af5e8-5742-4fdf-bd88-58f72a3a6602"/>
+  </producedTypes>
+  <name>ЦенаАбонемента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цена абонемента</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="419bf036-b527-419f-9fa0-08c758c1ebbb">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="fe1255fd-3bd1-474d-9b51-74e2c8cf60fc">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="9b538c2e-5681-40a0-a4e5-16f2beb7694c">
+    <name>ВидАбонемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид абонемента</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыАбонементов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

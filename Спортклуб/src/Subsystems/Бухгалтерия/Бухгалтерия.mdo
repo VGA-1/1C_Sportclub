@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="49ee9df2-66b7-44fe-8dfe-7d8747ff40a0">
+  <name>Бухгалтерия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бухгалтерия</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Товары</content>
+  <content>Catalog.Поставщики</content>
+  <content>Document.ПриходТовара</content>
+  <content>InformationRegister.ЦенаТовара</content>
+  <content>InformationRegister.НаценкаТовара</content>
+  <content>AccumulationRegister.Товары</content>
+  <content>Document.ПродажаТовара</content>
+  <content>Report.ОтчетПоПроданнымТоварам</content>
+  <content>Report.ОтчетПоПроданнымУслугам</content>
+</mdclass:Subsystem>

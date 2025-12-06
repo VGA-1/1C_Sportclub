@@ -38,6 +38,7 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Бухгалтерия</subsystems>
   <subsystems>Subsystem.УчетСпортсменов</subsystems>
   <commonModules>CommonModule.ЗаполнитьКонстанты</commonModules>
   <commonModules>CommonModule.СерверГлобальный</commonModules>
@@ -48,16 +49,45 @@
   <constants>Constant.ЧасНачалаРабочегоДня</constants>
   <constants>Constant.ЧасОкончанияРабочегоДня</constants>
   <commonForms>CommonForm.Планировщик</commonForms>
-  <catalogs>Catalog.ВидыАбонементов</catalogs>
+
   <catalogs>Catalog.ГруппыСпортсменов</catalogs>
-  <catalogs>Catalog.КлубныеКарты</catalogs>
+ 
   <catalogs>Catalog.Помещения</catalogs>
+  <roles>Role.Администратор</roles>
+  <roles>Role.Бухгалтер</roles>
+  <roles>Role.Продавец</roles>
+  <roles>Role.Тренер</roles>
+  <catalogs>Catalog.ВидыАбонементов</catalogs>
+ 
+  <catalogs>Catalog.КлубныеКарты</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.Поставщики</catalogs>
   <catalogs>Catalog.СпортивныеГруппы</catalogs>
   <catalogs>Catalog.Спортсмены</catalogs>
+  <catalogs>Catalog.Товары</catalogs>
   <catalogs>Catalog.Тренеры</catalogs>
   <catalogs>Catalog.Услуги</catalogs>
+  <documents>Document.ЗаморозкаАбонемента</documents>
+  <documents>Document.Оплата</documents>
+  <documents>Document.ПриходТовара</documents>
+  <documents>Document.ПродажаАбонемента</documents>
+  <documents>Document.ПродажаТовара</documents>
+  <documents>Document.РегистрацияВхода</documents>
   <enums>Enum.ВидыДокументов</enums>
   <enums>Enum.ВозрастныеГруппы</enums>
+  <enums>Enum.СпособОплаты</enums>
+  <enums>Enum.СтатусАбонемента</enums>
+  <enums>Enum.СтатусОплаты</enums>
   <enums>Enum.ТипыАбонементов</enums>
   <informationRegisters>InformationRegister.РасписаниеТренеров</informationRegisters>
+  <reports>Report.ОтчетПоПроданнымТоварам</reports>
+  <reports>Report.ОтчетПоПроданнымУслугам</reports>
+  <informationRegisters>InformationRegister.НаценкаТовара</informationRegisters>
+  <informationRegisters>InformationRegister.СостояниеАбонемента</informationRegisters>
+  <informationRegisters>InformationRegister.ЦенаАбонемента</informationRegisters>
+  <informationRegisters>InformationRegister.ЦенаТовара</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныУслуг</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ПродажиТренеров</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Товары</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.УчетПосещаемости</accumulationRegisters>
 </mdclass:Configuration>

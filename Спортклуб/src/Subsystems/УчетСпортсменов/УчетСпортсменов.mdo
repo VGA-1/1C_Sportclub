@@ -13,14 +13,28 @@
   <content>CommonForm.Планировщик</content>
   <content>CommandGroup.Справочники</content>
   <content>CommandGroup.Документы</content>
-  <content>Catalog.ВидыАбонементов</content>
+  
   <content>Catalog.ГруппыСпортсменов</content>
-  <content>Catalog.КлубныеКарты</content>
+  
   <content>Catalog.Помещения</content>
+  <content>InformationRegister.ЦеныУслуг</content>
+  <content>Document.ПродажаАбонемента</content>
+  <content>Role.Администратор</content>
+  <content>Role.Бухгалтер</content>
+  <content>Role.Продавец</content>
+  <content>Role.Тренер</content>
+  <content>Document.Оплата</content>
+  <content>Catalog.ВидыАбонементов</content>
+  
+  <content>Catalog.КлубныеКарты</content>
+  <content>Catalog.Пользователи</content>
   <content>Catalog.СпортивныеГруппы</content>
   <content>Catalog.Спортсмены</content>
   <content>Catalog.Тренеры</content>
   <content>Catalog.Услуги</content>
   <content>CommonCommand.ОткрытьПланировщик</content>
   <content>InformationRegister.РасписаниеТренеров</content>
+  <content>InformationRegister.ЦенаАбонемента</content>
+  <content>Document.РегистрацияВхода</content>
+  <content>Document.ЗаморозкаАбонемента</content>
 </mdclass:Subsystem>

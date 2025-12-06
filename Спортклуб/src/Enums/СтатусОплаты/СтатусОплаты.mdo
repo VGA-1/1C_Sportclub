@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b3421117-c39d-4efa-b2ef-6525ef73a2fa">
+  <producedTypes>
+    <refType typeId="03d2317b-3754-468e-9911-1a86907faeed" valueTypeId="d28f9890-ab7a-4d9d-811f-c8c721962cbd"/>
+    <listType typeId="67a770eb-df0c-4c25-8930-332a9e52224a" valueTypeId="16bd0c07-3516-424a-8e40-a6a045f14d74"/>
+    <managerType typeId="07bfc276-8fa8-4089-ba2f-8a981770cbbd" valueTypeId="dfe7ed8e-7087-4a4e-b657-879d3222b87b"/>
+  </producedTypes>
+  <name>СтатусОплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус оплаты</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5e8704da-7772-4b18-9280-414964e2f203">
+    <name>Проведена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проведена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="38e6a7b6-96dd-45ee-b515-07791054fa78">
+    <name>НеПроведена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не проведена</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

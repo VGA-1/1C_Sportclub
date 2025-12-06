@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1a0cf78-09a4-40e1-a33d-2a4d0c4b3589">
+  <producedTypes>
+    <selectionType typeId="7458aec7-1eb4-493b-8d0b-ed61b0ace021" valueTypeId="d374e814-ac6b-455f-9837-e1c0a69887a0"/>
+    <listType typeId="b58716ab-3a3d-49bd-8933-cf6a08a99340" valueTypeId="b9ba9c95-f4cd-4e72-b368-7c8fa670dcf4"/>
+    <managerType typeId="39f66621-61a2-4ae6-86ca-579dfc429ff8" valueTypeId="e0158726-0095-41ee-b8c2-494df3cc0888"/>
+    <recordSetType typeId="1a4b0ec2-2de3-41a8-9ebb-03034ef332b0" valueTypeId="70f58c21-6d32-466c-9b1a-a01177c06463"/>
+    <recordKeyType typeId="592bf1bf-a540-4f01-897e-aedf6313f641" valueTypeId="97235f2c-7c84-4261-9976-02c01fc0832e"/>
+    <recordType typeId="bfbaee2e-73c6-4609-945d-e0bfec65e2ce" valueTypeId="e5062dc7-f00a-4738-9bae-af8d47c72425"/>
+  </producedTypes>
+  <name>ПродажиТренеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продажи тренеров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="e17a5a80-2b70-43f2-9ba9-1552b9b41b60">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="7ea9427b-5b70-4411-b2c4-b437bb1af35c">
+    <name>Тренер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тренер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Тренеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="e99875d3-1823-40be-b98a-8f4455bf09d4">
+    <name>Услуга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>
