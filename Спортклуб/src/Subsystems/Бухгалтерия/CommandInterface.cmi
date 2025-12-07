@@ -17,6 +17,7 @@
       <group>CommandGroup.Документы</group>
       <commands>Document.ПродажаТовара.StandardCommand.OpenList</commands>
       <commands>Document.ПриходТовара.StandardCommand.OpenList</commands>
+      <commands>Document.Оплата.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
       <group>CommandGroup.Справочники</group>
@@ -36,6 +37,7 @@
     </orderFragments>
     <orderFragments>
       <group>CommandGroup.Документы</group>
+      <commands>Document.Оплата.StandardCommand.OpenList</commands>
       <commands>Document.ПродажаТовара.StandardCommand.OpenList</commands>
       <commands>Document.ПриходТовара.StandardCommand.OpenList</commands>
     </orderFragments>

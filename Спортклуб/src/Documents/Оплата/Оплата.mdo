@@ -12,6 +12,7 @@
     <key>ru</key>
     <value>Оплата</value>
   </synonym>
+  <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.Оплата.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>

@@ -24,4 +24,5 @@
   <content>Document.ПродажаТовара</content>
   <content>Report.ОтчетПоПроданнымТоварам</content>
   <content>Report.ОтчетПоПроданнымУслугам</content>
+  <content>Document.Оплата</content>
 </mdclass:Subsystem>
