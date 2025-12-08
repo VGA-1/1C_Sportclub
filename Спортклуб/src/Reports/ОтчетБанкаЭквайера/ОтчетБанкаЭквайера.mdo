@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20c12a19-eead-4dbf-9993-5a241e21006c">
+  <producedTypes>
+    <objectType typeId="c693f81d-1f17-4c62-88a1-aa6c8284d395" valueTypeId="78a519c2-b35d-4c22-af34-c2b6f0953e7c"/>
+    <managerType typeId="40767a28-f418-4b33-a5ea-b78d89d42e77" valueTypeId="723d8a0c-e70f-4476-9f50-a75939d48701"/>
+  </producedTypes>
+  <name>ОтчетБанкаЭквайера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет банка эквайера</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОтчетБанкаЭквайера.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="f92dbad3-1aa3-4d6e-b60f-1c3d5e875101">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

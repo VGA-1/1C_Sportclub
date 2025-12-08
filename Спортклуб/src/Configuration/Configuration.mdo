@@ -54,6 +54,7 @@
   <commandGroups>CommandGroup.Документы</commandGroups>
   <commandGroups>CommandGroup.РегистрыСведений</commandGroups>
   <commandGroups>CommandGroup.РегистрыНакопления</commandGroups>
+  <constants>Constant.КомиссияБанкаЭквайера</constants>
   <constants>Constant.ЧасНачалаРабочегоДня</constants>
   <constants>Constant.ЧасОкончанияРабочегоДня</constants>
   <commonForms>CommonForm.Планировщик</commonForms>
@@ -83,6 +84,7 @@
   <enums>Enum.СтатусАбонемента</enums>
   <enums>Enum.СтатусОплаты</enums>
   <enums>Enum.ТипыАбонементов</enums>
+  <reports>Report.ОтчетБанкаЭквайера</reports>
   <reports>Report.ОтчетПоПроданнымТоварам</reports>
   <reports>Report.ОтчетПоПроданнымУслугам</reports>
   <reports>Report.УчетДоходовИРасходов</reports>

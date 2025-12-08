@@ -24,6 +24,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.Оплата.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.ДоходыИРасходы</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="8bf149e9-eec5-44f5-b251-480679f6c38a">
@@ -89,10 +90,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="c8cf305d-9bee-49e1-bb68-6e9477c049bc">
-    <name>Сумма</name>
+    <name>СуммаПоДокументу</name>
     <synonym>
       <key>ru</key>
-      <value>Сумма</value>
+      <value>Сумма по документу</value>
     </synonym>
     <type>
       <types>Number</types>

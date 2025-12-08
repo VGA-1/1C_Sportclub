@@ -29,4 +29,5 @@
   <content>AccumulationRegister.ДоходыИРасходы</content>
   <content>Document.РегистрацияДоходовИРасходов</content>
   <content>Report.УчетДоходовИРасходов</content>
+  <content>Report.ОтчетБанкаЭквайера</content>
 </mdclass:Subsystem>

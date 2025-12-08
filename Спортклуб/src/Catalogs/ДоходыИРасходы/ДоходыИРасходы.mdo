@@ -29,18 +29,39 @@
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
   <predefined>
-    <items id="b9735e29-ff5e-41a5-98e0-878298c58ab2">
-      <name>ВыручкаОтПродажиТоваров</name>
-      <description>Выручка от продажи товаров</description>
-      <code xsi:type="core:StringValue">
-        <value>000000001</value>
-      </code>
-    </items>
     <items id="d9493a85-0b5e-4f99-af2f-89a7279b5029">
       <name>РасходНаПокупкуТовара</name>
       <description>Расход на покупку товара</description>
       <code xsi:type="core:StringValue">
         <value>000000002</value>
+      </code>
+    </items>
+    <items id="857a59fa-19c9-4c38-ad35-66effd2191e2">
+      <name>ОплатаОтКлиента</name>
+      <description>Оплата от клиента</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="1afa6174-9154-4fe8-be1f-4162e842796d">
+      <name>КомиссияБанкуЭквайеру</name>
+      <description>Комиссия банку эквайеру</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="51a66eb5-6501-49d1-9164-2f39f251c3c8">
+      <name>ПродажаТовара</name>
+      <description>Продажа товара</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="98fc96ca-fe90-4f49-85e6-060bb5fccbab">
+      <name>ПродажаАбонемента</name>
+      <description>Продажа абонемента</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
       </code>
     </items>
   </predefined>
