@@ -25,4 +25,8 @@
   <content>Report.ОтчетПоПроданнымТоварам</content>
   <content>Report.ОтчетПоПроданнымУслугам</content>
   <content>Document.Оплата</content>
+  <content>Catalog.ДоходыИРасходы</content>
+  <content>AccumulationRegister.ДоходыИРасходы</content>
+  <content>Document.РегистрацияДоходовИРасходов</content>
+  <content>Report.УчетДоходовИРасходов</content>
 </mdclass:Subsystem>

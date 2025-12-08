@@ -33,10 +33,7 @@
       <value>Статья дохода и расхода</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>25</length>
-      </stringQualifiers>
+      <types>CatalogRef.ДоходыИРасходы</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
