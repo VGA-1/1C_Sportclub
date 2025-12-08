@@ -60,7 +60,7 @@
       <types>Number</types>
       <numberQualifiers>
         <precision>15</precision>
-        <scale>5</scale>
+        <scale>2</scale>
         <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
