@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b8755004-805b-4b03-b157-8ca875b4206a">
+  <producedTypes>
+    <objectType typeId="4a82b3ca-f8cc-4201-ab55-7b59137b095e" valueTypeId="5215b953-dbac-48a4-807b-17fd9991897f"/>
+    <managerType typeId="7dae7758-0f1d-42e8-bcbf-1b667e3b43d1" valueTypeId="0a3e599a-26f8-430b-b22a-db83fd134103"/>
+  </producedTypes>
+  <name>УчетДоходовИРасходов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет доходов и расходов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.УчетДоходовИРасходов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="9ec58661-bca3-4ddd-93ed-86e69814019a">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

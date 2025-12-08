@@ -26,6 +26,7 @@
   <defaultObjectForm>Document.ПродажаАбонемента.Form.ФормаДокумента</defaultObjectForm>
   <registerRecords>AccumulationRegister.УчетПосещаемости</registerRecords>
   <registerRecords>AccumulationRegister.ПродажиТренеров</registerRecords>
+  <registerRecords>AccumulationRegister.ДоходыИРасходы</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="15ec0039-6627-47b8-86cd-a18026a201dc">

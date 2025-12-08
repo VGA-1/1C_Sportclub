@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf905190-3287-442e-8865-c8cffa63a955">
+  <producedTypes>
+    <objectType typeId="5e165340-bffd-4e90-a530-89b585c42f0d" valueTypeId="4fb17114-0d7e-48c4-95ff-f2a81dccafa6"/>
+    <refType typeId="05f703fd-ecb3-446e-80ab-37e5a8232a68" valueTypeId="9955b35b-fa2a-4610-ba43-f34f0e8b3951"/>
+    <selectionType typeId="d39ab036-b0fc-4ffa-93f1-b2993531d1ab" valueTypeId="63eb4055-a4c0-4f62-b6f6-b9453abf0c62"/>
+    <listType typeId="842d8c89-bfe5-4f52-b709-7ec7c7828cb8" valueTypeId="8819b8b8-0dc2-4021-b27f-444b33a1e8f7"/>
+    <managerType typeId="3b0913a3-7d5a-454f-89a5-4e53cdc21db6" valueTypeId="0ee80a1b-5890-4bf8-8715-fe0d2038b3e3"/>
+  </producedTypes>
+  <name>РегистрацияДоходовИРасходов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрация доходов и расходов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.РегистрацияДоходовИРасходов.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.ДоходыИРасходы</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="b2a6ba65-c4ec-4615-853a-ac02692bee39">
+    <name>СтатьяДоходаИРасхода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья дохода и расхода</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="15ac1a77-91cf-4d0c-8119-e56b08498052">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

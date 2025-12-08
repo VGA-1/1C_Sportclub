@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86596a25-5e69-458e-907b-619d2caa0eb9">
+  <producedTypes>
+    <selectionType typeId="4b932555-1d37-4f22-90d9-526557b80877" valueTypeId="df670a77-a08c-491e-81c4-781f28072e18"/>
+    <listType typeId="9dbfb8db-371a-4586-aa8e-309bbfabe63b" valueTypeId="dc67ef4d-2641-40e6-869d-f3d331163faa"/>
+    <managerType typeId="829cff56-dea4-4100-8d90-b8821313bd2c" valueTypeId="ad82c081-4c3b-406c-9d68-5032d3d8c2f1"/>
+    <recordSetType typeId="ccb544cf-f04e-4fb9-bb84-86d609beef31" valueTypeId="631ab506-d849-4192-b62b-9248a86daaf1"/>
+    <recordKeyType typeId="25aacb42-4f1c-4e64-ba9d-ba4bfaf9b911" valueTypeId="1ead0af7-cb88-4293-854d-fb8c3d6d2254"/>
+    <recordType typeId="c8a7665a-aac3-4660-b3f5-3e0d85ee23d3" valueTypeId="02c126f8-a171-43cc-8323-b87bb415f4c5"/>
+  </producedTypes>
+  <name>ДоходыИРасходы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доходы и расходы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="c4586c9e-4466-4da1-9f54-9eeeb2b3c13a">
+    <name>СуммаПоСтатье</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма по статье</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="26ff4346-6e95-4fd5-a068-d13a1769366c">
+    <name>Статья</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДоходыИРасходы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="a074661f-a2f7-4113-9390-85286b7caa76">
+    <name>Вид</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидСтатьи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

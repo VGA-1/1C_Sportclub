@@ -25,6 +25,7 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ПродажаТовара.Form.ФормаДокумента</defaultObjectForm>
   <registerRecords>AccumulationRegister.Товары</registerRecords>
+  <registerRecords>AccumulationRegister.ДоходыИРасходы</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="ec9d11d1-be9b-4f85-b643-38d35037af00">

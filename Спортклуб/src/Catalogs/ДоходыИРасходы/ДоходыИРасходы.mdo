@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="340827c7-2d56-4369-b9ca-360154813e54">
+  <producedTypes>
+    <objectType typeId="7323091e-5857-4009-94a3-e27addd4a7ec" valueTypeId="9bf90fdd-a4ce-44a3-b246-971afccdc04a"/>
+    <refType typeId="d6035a60-df08-4037-88e6-d221b4844dda" valueTypeId="8775d751-4873-4de8-b528-0c043aaec2ec"/>
+    <selectionType typeId="e503f6a8-fbce-4a5a-b818-306a4e572335" valueTypeId="37af5e5c-d9af-4b18-aa3c-f3c46e7fb935"/>
+    <listType typeId="b3b13d94-9ec8-4f1d-a13f-58b0c8ae6a61" valueTypeId="96e04ae1-51db-4049-95b4-7e5c7e9720b7"/>
+    <managerType typeId="4e8b54e3-9e9e-4b11-8b6b-bfd40ec5b99e" valueTypeId="ea8b7c3d-c6b1-4f83-83d5-53f0f3423d7b"/>
+  </producedTypes>
+  <name>ДоходыИРасходы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доходы и расходы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДоходыИРасходы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ДоходыИРасходы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="8ee838dc-a4a5-4732-8a1b-b3bf71dab4f7">
+    <name>Вид</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидСтатьи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

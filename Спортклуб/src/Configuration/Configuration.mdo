@@ -59,6 +59,7 @@
   <commonForms>CommonForm.Планировщик</commonForms>
   <catalogs>Catalog.ВидыАбонементов</catalogs>
   <catalogs>Catalog.ГруппыСпортсменов</catalogs>
+  <catalogs>Catalog.ДоходыИРасходы</catalogs>
   <catalogs>Catalog.КлубныеКарты</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.Помещения</catalogs>
@@ -74,6 +75,8 @@
   <documents>Document.ПродажаАбонемента</documents>
   <documents>Document.ПродажаТовара</documents>
   <documents>Document.РегистрацияВхода</documents>
+  <documents>Document.РегистрацияДоходовИРасходов</documents>
+  <enums>Enum.ВидСтатьи</enums>
   <enums>Enum.ВидыДокументов</enums>
   <enums>Enum.ВозрастныеГруппы</enums>
   <enums>Enum.СпособОплаты</enums>
@@ -82,12 +85,14 @@
   <enums>Enum.ТипыАбонементов</enums>
   <reports>Report.ОтчетПоПроданнымТоварам</reports>
   <reports>Report.ОтчетПоПроданнымУслугам</reports>
+  <reports>Report.УчетДоходовИРасходов</reports>
   <informationRegisters>InformationRegister.НаценкаТовара</informationRegisters>
   <informationRegisters>InformationRegister.РасписаниеТренеров</informationRegisters>
   <informationRegisters>InformationRegister.СостояниеАбонемента</informationRegisters>
   <informationRegisters>InformationRegister.ЦенаАбонемента</informationRegisters>
   <informationRegisters>InformationRegister.ЦенаТовара</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныУслуг</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ДоходыИРасходы</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ПродажиТренеров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Товары</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.УчетПосещаемости</accumulationRegisters>
