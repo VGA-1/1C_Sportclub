@@ -7,22 +7,31 @@
         <common>true</common>
       </visible>
     </visibilityFragments>
+    <visibilityFragments>
+      <command>AccumulationRegister.ДоходыИРасходы.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
   </commandsVisibility>
   <commandsPlacement>
     <placementFragments>
       <group>CommandGroup.РегистрыНакопления</group>
       <commands>AccumulationRegister.Товары.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.ДоходыИРасходы.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
       <group>CommandGroup.Документы</group>
       <commands>Document.ПродажаТовара.StandardCommand.OpenList</commands>
       <commands>Document.ПриходТовара.StandardCommand.OpenList</commands>
       <commands>Document.Оплата.StandardCommand.OpenList</commands>
+      <commands>Document.РегистрацияДоходовИРасходов.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
       <group>CommandGroup.Справочники</group>
       <commands>Catalog.Товары.StandardCommand.OpenList</commands>
       <commands>Catalog.Поставщики.StandardCommand.OpenList</commands>
+      <commands>Catalog.ДоходыИРасходы.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
       <group>CommandGroup.РегистрыСведений</group>
@@ -33,6 +42,7 @@
   <commandsOrder>
     <orderFragments>
       <group>CommandGroup.РегистрыНакопления</group>
+      <commands>AccumulationRegister.ДоходыИРасходы.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.Товары.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
@@ -40,9 +50,11 @@
       <commands>Document.Оплата.StandardCommand.OpenList</commands>
       <commands>Document.ПродажаТовара.StandardCommand.OpenList</commands>
       <commands>Document.ПриходТовара.StandardCommand.OpenList</commands>
+      <commands>Document.РегистрацияДоходовИРасходов.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>CommandGroup.Справочники</group>
+      <commands>Catalog.ДоходыИРасходы.StandardCommand.OpenList</commands>
       <commands>Catalog.Товары.StandardCommand.OpenList</commands>
       <commands>Catalog.Поставщики.StandardCommand.OpenList</commands>
     </orderFragments>
